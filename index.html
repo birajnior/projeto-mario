@@ -1,15 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
     <title>Document</title>
 
     <link rel="stylesheet" href="assets/style/style.css">
 </head>
+
 <body>
-    
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/video-mario.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="cabecalho">
+        <a>
+            <img class="logo" src="src/img/logo-chapeu-mario.png" alt="Logo chapéu Mario">
+        </a>
+        <nav>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Detalhes</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="src/img/titulo.png" alt="Imagem do título do filme">
+            <p class="descricao">Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos
+                cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para
+                conseguir reinar em todos os lugares.</p>
+            <button class="botao-trailer">VEJA O TRAILER</button>
+        </div>
+        <div class="mario">
+            <img src="src/img/super-mario-chars.png" alt="">
+        </div>
+    </main>
+
 </body>
+
 </html>
