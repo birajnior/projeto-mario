@@ -1,0 +1,35 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+
+    a {
+        .logo {
+            width: 65px;
+        }
+    }
+
+    nav {
+        .menu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+
+            a {
+                font-size: 1.56rem;
+                font-weight: bold;
+                color: #ffffff;
+                padding: 10px 20px;
+                border-radius: 50px;
+                transition: 0.2s all ease-in;
+
+                &:hover {
+                    background-color: #d5011d;
+                }
+            }
+        }
+    }
+}
