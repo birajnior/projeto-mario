@@ -4,13 +4,16 @@ const fecharModal = document.querySelector('.fechar-modal')
 const video = document.getElementById('video')
 const linkDoVideo = video.src
 
+function alternarModal() {
+    modal.classList.toggle('aberto')
+}
+
 botaoTrailer.addEventListener('click', () => {
-    console.log('clicou');
-    modal.classList.add('aberto')
+    alternarModal()
     video.setAttribute('src', linkDoVideo)
 })
 
 fecharModal.addEventListener('click', () => {
-    modal.classList.remove('aberto')
+    alternarModal()
     video.setAttribute('src', "")
 })
